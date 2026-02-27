@@ -3,3 +3,11 @@
 
 ~> to deactivate
 > deactivate
+
+~> render_tempalte - creating a html template inside /templates folder.
+> return render_template('index.html')
+
+~> jinja tempalte - accepts values and showcase using a simple tempalte
+> {{  }} - expressions to print output in html
+> {%...%} - conditions, for loops
+> {#...#} - this is for comments
